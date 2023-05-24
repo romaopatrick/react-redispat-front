@@ -1,0 +1,17 @@
+
+
+.sidenav_area {
+    display: flex;
+    flex-direction: column;
+    height: 96vh;
+    width: 20vw;
+    background-color: rgb(151, 156, 255);
+
+    .sidenav_items_area {
+        display: flex;
+        flex-direction: column;
+        top: 4vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
