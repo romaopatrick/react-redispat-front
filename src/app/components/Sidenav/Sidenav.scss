@@ -1,17 +1,26 @@
-
-
 .sidenav_area {
     display: flex;
     flex-direction: column;
     height: 96vh;
     width: 20vw;
+    max-width: 20vw;
     background-color: rgb(151, 156, 255);
 
+
+    .sidenav_search_area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .sidenav_items_area {
         display: flex;
         flex-direction: column;
-        top: 4vh;
         overflow-y: auto;
-        overflow-x: hidden;
+
+        .sidenav_option {
+            text-decoration: none;
+            color: black;
+            width: 100%;
+        }
     }
 }

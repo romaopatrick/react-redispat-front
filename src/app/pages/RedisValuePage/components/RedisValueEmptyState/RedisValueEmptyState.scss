@@ -1,0 +1,12 @@
+@import '../../../../variables';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+.empty_state_area{
+    font-family: 'Poppins', 'Courier New', Courier, monospace;
+    color: rgb(179, 179, 179);
+
+    h1 {
+        text-align: center;
+        width: 300px;
+    }
+}

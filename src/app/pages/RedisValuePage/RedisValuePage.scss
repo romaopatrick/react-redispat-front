@@ -1,0 +1,39 @@
+
+.redis_value_page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .toolbar {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .toolbar_icon {
+            font-size: 1.3rem;
+            display: flex;
+            width: 50%;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            
+            cursor: pointer;
+
+            &:hover {
+                background-color: #063970;
+                border-radius: 5px;
+                color: white;
+            }
+        }
+    }
+
+    .value_bar_area {
+        border-radius: 5px;
+        width: 97%;
+        height: 95%;
+        background: rgb(224, 224, 224);
+        resize: none;
+    }
+}

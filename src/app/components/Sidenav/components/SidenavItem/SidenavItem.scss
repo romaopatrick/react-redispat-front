@@ -1,11 +1,22 @@
-.sideitem_aria {
-    width: 100%;
-    height: fit-content;
-    font-size: 1.1rem;
-
+.sideitem_area {
+    display: flex;
     word-wrap: break-word;
+    max-width: 15vw;
+    padding: 10px;
+
+    p {
+        width: 100%;
+        margin: 0;
+    }
 
     &:hover {
         cursor: pointer;
+        background-color: rgb(124, 130, 255);
+        border-radius: 0 10px 10px 10px;
+    }
+
+    &.selected {
+        background-color: rgb(124, 130, 255);
+        border-radius: 0 10px 10px 10px;
     }
 }
